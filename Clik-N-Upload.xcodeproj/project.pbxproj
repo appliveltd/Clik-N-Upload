@@ -12,6 +12,7 @@
 		AC2081AA1EBE854F001B3FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2081A81EBE854F001B3FCC /* Main.storyboard */; };
 		AC2081AC1EBE854F001B3FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2081AB1EBE854F001B3FCC /* Assets.xcassets */; };
 		AC2081AF1EBE854F001B3FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2081AD1EBE854F001B3FCC /* LaunchScreen.storyboard */; };
+		AC3358301EC8995A00830CB0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AC33582F1EC8995A00830CB0 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC2081AB1EBE854F001B3FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2081AE1EBE854F001B3FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2081B01EBE854F001B3FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC33582F1EC8995A00830CB0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		AC2081981EBE854F001B3FCC = {
 			isa = PBXGroup;
 			children = (
+				AC33582F1EC8995A00830CB0 /* Podfile */,
 				AC2081A31EBE854F001B3FCC /* Clik-N-Upload */,
 				AC2081A21EBE854F001B3FCC /* Products */,
 			);
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					AC2081A01EBE854F001B3FCC = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U3UH7X2FH9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +129,7 @@
 			files = (
 				AC2081AF1EBE854F001B3FCC /* LaunchScreen.storyboard in Resources */,
 				AC2081AC1EBE854F001B3FCC /* Assets.xcassets in Resources */,
+				AC3358301EC8995A00830CB0 /* Podfile in Resources */,
 				AC2081AA1EBE854F001B3FCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3UH7X2FH9;
 				INFOPLIST_FILE = "Clik-N-Upload/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AS.Clik-N-Upload";
@@ -274,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3UH7X2FH9;
 				INFOPLIST_FILE = "Clik-N-Upload/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AS.Clik-N-Upload";
@@ -301,6 +308,7 @@
 				AC2081B51EBE854F001B3FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
